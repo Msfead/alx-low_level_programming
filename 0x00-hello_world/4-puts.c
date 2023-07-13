@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
  *main - Entry point
- *Descraption: A C proogram that points with put function
+ *Descraption: A C proogram that points with put functio
  *Return: Always 0(success)
 */
 int main(void)
