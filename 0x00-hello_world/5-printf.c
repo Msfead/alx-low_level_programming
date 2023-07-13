@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
  * main - Entry point
- * Desraption: A C program that print with printf funcation
+ * Desraption: A C program that print with printf funcation.
  * Return: Always 0(sucsess)
 */
 
