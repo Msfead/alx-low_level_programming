@@ -1,12 +1,12 @@
 #include<stdio.h>
 /**
- * main - Entry point
- * Desraption: A C program that print with printf funcation.
- * Return: Always 0(sucsess)
+ *main - Entry point
+ *Desraption: A C program that print with printf funcation.
+ *Return: Always 0(sucsess)
 */
 
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art.\n");
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
