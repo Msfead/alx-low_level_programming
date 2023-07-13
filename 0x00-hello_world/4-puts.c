@@ -1,15 +1,11 @@
-#include <stdio.h>
-
+#include<stdio.h>
 /**
- * main - entry point
- *
- * descraption: A C program that prints with put funcation
- *
- * Return: always 0 (ucsess)
+ *main - Entry point
+ *Descraption: A C proogram that points with put function
+ *Return: Always 0(success)
 */
-
-	int main(void)
+int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
-	 return (0);
+	return (0);
 }
