@@ -4,8 +4,9 @@
 *Descraption: prints the last digit of a number.
 *Return: Always 0
 */
-int print_last_digit(int n)
+int print_last_digit(int);
 {
+	int n;
 	int l;
 
 	l = n % 10;
