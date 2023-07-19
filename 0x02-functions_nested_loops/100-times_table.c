@@ -1,19 +1,21 @@
 #include "main.h"
+
 /**
 *main - Entry point
 *Descraption: prints time table.
 *Return: Always 0
 */
+
 void print_times_table(int n)
 {
 	int prod, mult, num;
-	
+
 	if (n <= 15 && n >= 0)
 	{
 		for (num = 0; num <= n; ++num)
 		{
 			_putchar(48);
-			for(mult = 1; mult <= n; ++mult)
+			for (mult = 1; mult <= n; ++mult)
 			{
 				_putchar(',');
 				_putchar(' ');
@@ -28,11 +30,11 @@ void print_times_table(int n)
 				if (prod >= 100)
 				{
 					_putchar((prod / 100) + 48);
-					_putchar((prod /10) % 10 + 48);
+					_putchar((prod / 10) % 10 + 48);
 				}
 				else if (prod <= 99 && prod >= 10)
 					_putchar((prod / 10) + 48);
-				_putchar((prod % 10) +48);
+				_putchar((prod % 10) + 48);
 			}
 			_putchar('\n');
 		}
