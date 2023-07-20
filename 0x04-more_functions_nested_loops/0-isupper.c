@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
-*main - Entry point
+*_isupper - Entry point
 *Descraption: Write a function that checks for uppercase character.
+*@c:parmeter
 *Return: Always 0
 */
 int _isupper(int c)
