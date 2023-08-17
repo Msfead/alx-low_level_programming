@@ -41,6 +41,7 @@ continue;
 			sep = ", ";
 			i++;
 }
+printf("\n");
 }
 }
 
