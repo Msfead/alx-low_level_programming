@@ -19,7 +19,7 @@ int _strlen(char *s)
 }
 
 /**
- * orint_list - print alinked lists
+ * print_list - print alinked lists
  * @h: pointer to first node
  * Return: size of list
  */
