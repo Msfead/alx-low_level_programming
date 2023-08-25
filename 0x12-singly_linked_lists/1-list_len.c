@@ -1,9 +1,9 @@
 #include "lists.h"
 
 /**
- * list_len - detrmente length of linked lists
+ *list_len - detrmente length of linked lists
  * @h: pointer to first node
- * Returen: size of list
+ * Return: size of list
  */
 
 size_t list_len(const list_t *h)
